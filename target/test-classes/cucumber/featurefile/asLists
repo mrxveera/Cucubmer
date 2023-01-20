@@ -1,0 +1,10 @@
+Feature: To validate the functionlity of sky Airline application register page
+
+  Scenario: To validate the registation page functionality with data
+    Given The user should be in sky ariline page
+    And click the register page
+    When The user enter the First name and Last name and Email and Password and re-enter password
+      | bosss | bayuuu | lolita@gmail.com  | Vhhaue@902   | Vhhaue@902   |
+      | veera | jaiun  | lbuhh@gmail.com   | owkhjsue@902 | owkhjsue@902 |
+      | kuhjy | losss  | qepkita@gmail.com | pom@902      | pom@902      |
+    Then The user should click the register button and to navigate home
